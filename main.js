@@ -61,7 +61,7 @@ GameScene.prototype.preload = function () {
   this.load.image("player", "assets/player.png");
 
   this.load.audio("music", "assets/music.mp3");
-  this.load.audio("chime", "assets/chime.wav");
+  this.load.audio("chime", "assets/chime.mp3");
 };
 
 GameScene.prototype.create = function () {
